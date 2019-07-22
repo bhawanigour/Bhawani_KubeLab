@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: front
+  namespace: staging
+  labels:
+    app: guestbook
+    tier: front
+spec:
+  rules:
+  - host: staging-guestbook.mstakx.io
+    http:
+      paths:
+      - path: /
+        back:
+          serviceName: front
+          servicePort: 80
