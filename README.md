@@ -1,22 +1,5 @@
 # Bhawani_KubeLab
 
-""" K8S in gcloud with autoscaling and HPA test """
-
-```
-➜  gke gcloud auth login
-Your browser has been opened to visit:
-
-    https://accounts.google.com/o/oauth2/auth?redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&access_type=offline
-
-
-WARNING: `gcloud auth login` no longer writes application default credentials.
-If you need to use ADC, see:
-  gcloud auth application-default --help
-
-You are now logged in as [ezequiel.arielli@rappi.com].
-Your current project is [kube-204921].  You can change this setting by running:
-  $ gcloud config set project PROJECT_ID
-
 
 Updates are available for some Cloud SDK components.  To install them,
 please run:
